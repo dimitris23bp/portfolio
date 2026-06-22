@@ -11,7 +11,10 @@ export interface Experience {
 export interface SkillCategory {
   id: string;
   name: string;
-  skills: string[];
+  items: {
+    groupName?: string;
+    skills: string[];
+  }[];
 }
 
 export interface Project {

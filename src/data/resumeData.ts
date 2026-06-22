@@ -89,12 +89,25 @@ export const resumeData: ResumeData = {
     {
       id: 'languages',
       name: 'Languages & Frameworks',
-      skills: ['Java (Spring Boot, Quarkus)', 'Kotlin (Guice, Dropwizard, Koog)', 'SQL', 'TypeScript']
+      items: [
+        {
+          groupName: 'Proficient',
+          skills: ['Java (Spring Boot, Quarkus)', 'Kotlin (Guice, Dropwizard, Koog)', 'SQL']
+        },
+        {
+          groupName: 'Familiar / Past Experience',
+          skills: ['TypeScript', 'React', 'Python', 'Rust', 'C', 'C#']
+        }
+      ]
     },
     {
       id: 'tools',
-      name: 'Tools & Cloud',
-      skills: ['Github Actions', 'Kafka', 'AWS', 'Grafana', 'Docker', 'PostgreSQL']
+      name: 'Tools & Infrastructure',
+      items: [
+        {
+          skills: ['Github Actions', 'Kafka', 'AWS', 'Grafana', 'Docker', 'PostgreSQL']
+        }
+      ]
     }
   ]
 };
