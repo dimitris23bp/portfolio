@@ -166,66 +166,9 @@ a:hover {
   margin-bottom: 0.5rem;
 }
 
-/* Mesh Gradient Background */
-.mesh-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
-  overflow: hidden;
-  background-color: var(--bg-primary);
-}
-
-.mesh-blob {
-  position: absolute;
-  filter: blur(100px);
-  opacity: 0.4;
-  border-radius: 50%;
-  animation: breathe 15s infinite alternate ease-in-out;
-}
-
-.mesh-blob-1 {
-  top: -10%;
-  left: -10%;
-  width: 50vw;
-  height: 50vw;
-  background: var(--gradient-start);
-  animation-delay: 0s;
-}
-
-.mesh-blob-2 {
-  bottom: -10%;
-  right: -10%;
-  width: 60vw;
-  height: 60vw;
-  background: var(--gradient-end);
-  animation-delay: -5s;
-}
-
-.mesh-blob-3 {
-  top: 30%;
-  left: 40%;
-  width: 40vw;
-  height: 40vw;
-  background: rgba(30, 58, 138, 0.8);
-  animation-delay: -10s;
-}
-
-@keyframes breathe {
-  0% {
-    transform: scale(1) translate(0, 0);
-  }
-  50% {
-    transform: scale(1.15) translate(3%, 3%);
-  }
-  100% {
-    transform: scale(0.9) translate(-3%, -3%);
-  }
-}
 
 .relative-z {
   position: relative;
   z-index: 1;
 }
+

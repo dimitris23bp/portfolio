@@ -23,3 +23,4 @@ This project is built using React + TypeScript + Vite. It is designed to be pure
 ### Maintenance
 * Whenever a new component or feature is added, ensure the structure remains strictly component-based.
 * Keep this `GEMINI.md` file updated if major architectural patterns change.
+* **CRITICAL**: Before confirming a task is completed, ALWAYS run `npm run build` to verify there are no TypeScript compilation errors or build failures.
