@@ -100,6 +100,17 @@ export const resumeData: ResumeData = {
       skills: ["Swift", "SwiftUI", "Kotlin"],
     },
     {
+      id: "portfolio-website",
+      name: "Portfolio Website",
+      startDate: "06/2026",
+      endDate: "Present",
+      description: [
+        "A modern, highly performant portfolio website built with React, TypeScript, and Vite. Designed with a dark mode tech startup aesthetic, featuring clean architecture and modular components.",
+      ],
+      url: "https://github.com/dimitris23bp/portfolio",
+      skills: ["TypeScript", "React"],
+    },
+    {
       id: "anki-languages-cli",
       name: "Anki CLI translator",
       startDate: "2023",
