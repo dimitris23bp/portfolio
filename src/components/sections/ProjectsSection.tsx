@@ -2,6 +2,7 @@ import React from 'react';
 import type { Project } from '../../types/resume';
 import { Code2, ExternalLink } from 'lucide-react';
 import { Card } from '../ui/Card';
+import { Badge } from '../ui/Badge';
 
 interface ProjectsSectionProps {
   projects: Project[];
@@ -50,6 +51,13 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ projects }) =>
                 <p key={index} style={{ marginBottom: '0.5rem' }}>{desc}</p>
               ))}
             </div>
+            {project.skills && project.skills.length > 0 && (
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginTop: '1rem' }}>
+                {project.skills.map((skill, index) => (
+                  <Badge key={index}>{skill}</Badge>
+                ))}
+              </div>
+            )}
           </Card>
         ))}
       </div>

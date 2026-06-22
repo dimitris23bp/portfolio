@@ -24,6 +24,19 @@ export const resumeData: ResumeData = {
         "Created custom AI agents for internal automation of work (investigation of Grafana alerts, initial investigation of new bug tickets).",
         "Created and enhanced the Github workflows for the CI of all the backend services in production.",
       ],
+      skills: [
+        "Kotlin",
+        "PostgreSQL",
+        "AWS",
+        "Github Actions",
+        "Kafka",
+        "Rest APIs",
+        "CI",
+        "Terraform",
+        "Typescript",
+        "Git",
+        "Claude Code",
+      ],
     },
     {
       id: "dt",
@@ -37,6 +50,16 @@ export const resumeData: ResumeData = {
         "Retired successfully a monolithic project through collaborative communication with other teams in the hub.",
         "Reduced import/export execution time by 80% using Spring Batch.",
       ],
+      skills: [
+        "Java",
+        "Kotlin",
+        "Spring Boot",
+        "Quarkus",
+        "PostgreSQL",
+        "Kafka",
+        "Rest APIs",
+        "Git",
+      ],
     },
     {
       id: "accenture",
@@ -49,6 +72,7 @@ export const resumeData: ResumeData = {
         "Developed an insurance marketplace as part of an agile team using: Java (Spring Boot), PostgreSQL, Kafka.",
         "Led the development of the reporting functionality. From a manual time-consuming process, to a fully automated one-button export with data from across 15+ insurance companies.",
       ],
+      skills: ["Java", "Kafka", "Rest APIs", "Git"],
     },
     {
       id: "army",
@@ -61,6 +85,7 @@ export const resumeData: ResumeData = {
         "Developed a virtual reality interactive training system in Unity, that simulates and exceeds the actual training.",
         "Presented to stakeholders in different stages of the project.",
       ],
+      skills: ["C#", "Unity", "Typescript", "Oracle Database", "Git"],
     },
   ],
   projects: [
@@ -72,6 +97,7 @@ export const resumeData: ResumeData = {
       description: [
         "To demonstrate my practical GenAI skills, I tested myself in an unfamiliar stack. I acted as a Tech Lead and used LLMs to build a native iOS application. My backend experience allowed me to guide the AI's architecture, concurrency patterns, and local database design.",
       ],
+      skills: ["Swift", "SwiftUI", "Kotlin"],
     },
     {
       id: "anki-languages-cli",
@@ -81,6 +107,7 @@ export const resumeData: ResumeData = {
         "A command-line interface tool created in Rust. I wanted to practice Rust and needed this specific feature that did not exist before.",
       ],
       url: "https://github.com/dimitris23bp/anki_languages_cli",
+      skills: ["Rust"],
     },
     {
       id: "parallel-traveling-salesman",
@@ -90,6 +117,7 @@ export const resumeData: ResumeData = {
         "My thesis for my bachelor's degree. Implemented and evaluated parallel algorithms for the Traveling Salesman Problem.",
       ],
       url: "https://github.com/dimitris23bp/Parallel-Traveling-Salesman",
+      skills: ["C", "OpenMP", "MPI"],
     },
   ],
   education: [
@@ -119,7 +147,15 @@ export const resumeData: ResumeData = {
         },
         {
           groupName: "Familiar / Past Experience",
-          skills: ["TypeScript", "React", "Python", "Rust", "Swift (SwiftUI)", "C", "C#"],
+          skills: [
+            "TypeScript",
+            "React",
+            "Python",
+            "Rust",
+            "C# (Unity)",
+            "Swift (SwiftUI)",
+            "C",
+          ],
         },
       ],
     },
@@ -130,11 +166,12 @@ export const resumeData: ResumeData = {
         {
           skills: [
             "Github Actions",
+            "Github Workflows",
             "Kafka",
             "AWS",
             "Grafana",
             "Docker",
-            "PostgreSQL",
+            "Git",
           ],
         },
       ],

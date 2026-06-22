@@ -1,6 +1,7 @@
 import React from 'react';
 import type { Experience } from '../../types/resume';
 import { Briefcase } from 'lucide-react';
+import { Badge } from '../ui/Badge';
 
 interface ExperienceSectionProps {
   experience: Experience[];
@@ -40,6 +41,13 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({ experience
                 <li key={index}>{highlight}</li>
               ))}
             </ul>
+            {job.skills && job.skills.length > 0 && (
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginTop: '1rem' }}>
+                {job.skills.map((skill, index) => (
+                  <Badge key={index}>{skill}</Badge>
+                ))}
+              </div>
+            )}
           </div>
         ))}
       </div>

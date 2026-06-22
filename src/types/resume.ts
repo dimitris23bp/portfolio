@@ -6,6 +6,7 @@ export interface Experience {
   endDate: string;
   location: string;
   highlights: string[];
+  skills?: string[];
 }
 
 export interface SkillCategory {
@@ -24,6 +25,7 @@ export interface Project {
   endDate?: string;
   description: string[];
   url?: string;
+  skills?: string[];
 }
 
 export interface Education {
