@@ -20,9 +20,10 @@ export interface SkillCategory {
 export interface Project {
   id: string;
   name: string;
-  startDate: string;
-  endDate: string;
+  startDate?: string;
+  endDate?: string;
   description: string[];
+  url?: string;
 }
 
 export interface Education {

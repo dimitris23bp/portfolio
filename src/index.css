@@ -143,6 +143,10 @@ a:hover {
   color: var(--text-secondary);
 }
 
+.hover-text-primary:hover {
+  color: var(--primary);
+}
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
