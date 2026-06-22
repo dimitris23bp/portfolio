@@ -97,6 +97,7 @@ export const resumeData: ResumeData = {
       description: [
         "To demonstrate my practical GenAI skills, I tested myself in an unfamiliar stack. I acted as a Tech Lead and used LLMs to build a native iOS application. My backend experience allowed me to guide the AI's architecture, concurrency patterns, and local database design.",
       ],
+      url: "https://apps.apple.com/us/app/multiconvertor/id6756715789",
       skills: ["Swift", "SwiftUI", "Kotlin"],
     },
     {
