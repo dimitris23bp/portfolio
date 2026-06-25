@@ -179,11 +179,45 @@ export const resumeData: ResumeData = {
           skills: [
             "Github Actions",
             "Github Workflows",
+            "REST APIs",
             "Kafka",
             "AWS",
             "Grafana",
             "Docker",
             "Git",
+            "Terraform",
+          ],
+        },
+      ],
+    },
+    {
+      id: "ai-tools",
+      name: "AI Tools",
+      items: [
+        {
+          skills: [
+            "Claude Code",
+            "Google Antigravity",
+            "GitHub Copilot",
+            "Notion AI",
+            "Custom AI Agents",
+            "Claude Plugin Marketplace",
+          ],
+        },
+      ],
+    },
+    {
+      id: "leadership",
+      name: "Leadership & Soft Skills",
+      items: [
+        {
+          skills: [
+            "Technical Leadership",
+            "Cross-Functional Collaboration",
+            "Architecture & System Design",
+            "Stakeholder Communication",
+            "Process Improvement",
+            "Agile / SAFe Methodologies",
           ],
         },
       ],
