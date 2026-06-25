@@ -60,7 +60,7 @@ export const ParticlesBackground = () => {
           density: {
             enable: true,
           },
-          value: 150,
+          value: 200,
         },
         opacity: {
           value: 0.4,
@@ -74,13 +74,33 @@ export const ParticlesBackground = () => {
       },
       detectRetina: true,
     }),
-    [],
+    []
   );
 
   return (
     <ParticlesProvider init={init}>
-      <div style={{ position: "fixed", top: 0, left: 0, width: "100%", height: "100%", zIndex: -1, backgroundColor: "#0a0a0a" }}>
-        <Particles id="tsparticles" options={options} style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }} />
+      <div
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          zIndex: -1,
+          backgroundColor: "#0a0a0a",
+        }}
+      >
+        <Particles
+          id='tsparticles'
+          options={options}
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+          }}
+        />
       </div>
     </ParticlesProvider>
   );
