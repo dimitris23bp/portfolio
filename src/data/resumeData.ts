@@ -20,6 +20,7 @@ export const resumeData: ResumeData = {
       endDate: "Present",
       location: "Copenhagen, Denmark",
       highlights: [
+        "Contributed to the platform and internal tooling for 250+ developers with technologies such as Kotlin, Typescript, PostgreSQL, Kafka, REST APIs, Terraform, AWS, Grafana, Bash, and Renovate",
         "Implemented a service for the creation of new microservices, reducing initial setup from days to 5 minutes, with an automatic deployment to all requested AWS clusters.",
         "Created custom AI agents for internal automation of work (investigation of Grafana alerts, initial investigation of new bug tickets).",
         "Created and enhanced the Github workflows for the CI of all the backend services in production.",
