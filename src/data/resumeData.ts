@@ -168,6 +168,7 @@ export const resumeData: ResumeData = {
             "C# (Unity)",
             "Swift (SwiftUI)",
             "C",
+            "Go",
           ],
         },
       ],
