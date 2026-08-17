@@ -21,7 +21,7 @@ export const resumeData: ResumeData = {
       location: "Copenhagen, Denmark",
       highlights: [
         "Contributed to the platform and internal tooling for 250+ developers with technologies such as Kotlin, Typescript, PostgreSQL, Kafka, REST APIs, Terraform, AWS, Grafana, Bash, and Renovate.",
-        "Created custom AI agents for internal automation of work (investigation of Grafana alerts, initial investigation of new bug tickets).",
+        "Created custom AI agents for internal automation of work (investigation of Grafana alerts, initial investigation of new bug tickets) saving each support engineer up to 4 hours per week.",
         "Integrated LiteLLM into the coding tools of every developer in the company, allowing for better insights and weekly/monthly limits to the usage.",
         "Developed a custom Gradle plugin to centralize common configurations and dependencies for all backend services, reducing boilerplate code and improving maintainability.",
         "Implemented a service for the creation of new microservices, reducing initial setup from days to 5 minutes, with an automatic deployment to all requested AWS clusters.",
@@ -93,6 +93,26 @@ export const resumeData: ResumeData = {
     },
   ],
   projects: [
+    {
+      id: "beacone",
+      name: "Beacone",
+      startDate: "07/2026",
+      endDate: "Present",
+      description: [
+        "A SaaS built from scratch that sends personalized notifications to Github users on Telegram, based on their preferences.",
+      ],
+      url: "https://beacone.dev/",
+      skills: [
+        "Kotlin",
+        "React",
+        "Typescript",
+        "PostgreSQL",
+        "REST APIs",
+        "Netcup",
+        "Linux",
+        "Bash",
+      ],
+    },
     {
       id: "multiconvertor",
       name: "MultiConvertor",
