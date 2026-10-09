@@ -21,11 +21,11 @@ export const resumeData: ResumeData = {
       location: "Copenhagen, Denmark",
       highlights: [
         "Contributed to the platform and internal tooling for 250+ developers with technologies such as Kotlin, Typescript, PostgreSQL, Kafka, REST APIs, Terraform, AWS, Grafana, Bash, and Renovate.",
-        "Created custom AI agents for internal automation of work (investigation of Grafana alerts, initial investigation of new bug tickets) saving each support engineer up to 4 hours per week.",
+        "Built AI custom agents that automate internal operational workflows, saving each support engineer up to 4 hours per week.",
         "Integrated LiteLLM into the coding tools of every developer in the company, allowing for better insights and weekly/monthly limits to the usage.",
         "Developed a custom Gradle plugin to centralize common configurations and dependencies for all backend services, reducing boilerplate code and improving maintainability.",
-        "Implemented a service for the creation of new microservices, reducing initial setup from days to 5 minutes, with an automatic deployment to all requested AWS clusters.",
-        "Created and enhanced the Github workflows for the CI of all the backend services in production.",
+        "Built a self-service platform for provisioning and deploying new microservices across AWS clusters, reducing initial setup time from days to 5 minutes.",
+        "Standardized and maintained reusable GitHub workflows powering CI across 50+ production backend services.",
       ],
       skills: [
         "Kotlin",
@@ -50,9 +50,9 @@ export const resumeData: ResumeData = {
       endDate: "03/2024",
       location: "Thessaloniki, Greece",
       highlights: [
-        "Contributed to an international hub using the SAFe framework, utilizing technologies such as: Java (Spring Boot, Quarkus), Kotlin, React, Typescript, Kafka, REST APIs, OpenAPI, PostgreSQL, and Docker.",
+        "Developed backend services for an international platform, utilizing technologies such as: Java (Spring Boot, Quarkus), Kotlin, React, TypeScript, Python, Kafka, REST APIs, WebSockets, OpenAPI, PostgreSQL, and Docker.",
         "Retired successfully a monolithic project through collaborative communication with other teams in the hub.",
-        "Reduced import/export execution time by 80% using Spring Batch.",
+        "Reduced batch import/export processing time by 80% using Spring Batch.",
       ],
       skills: [
         "Java",
@@ -62,6 +62,10 @@ export const resumeData: ResumeData = {
         "PostgreSQL",
         "Kafka",
         "Rest APIs",
+        "Python",
+        "WebSockets",
+        "OpenAPI",
+        "Docker",
         "Git",
       ],
     },
@@ -73,10 +77,10 @@ export const resumeData: ResumeData = {
       endDate: "09/2022",
       location: "Thessaloniki, Greece",
       highlights: [
-        "Developed an insurance marketplace as part of an agile team using: Java (Spring Boot), PostgreSQL, Kafka.",
-        "Led the development of the reporting functionality. From a manual time-consuming process, to a fully automated one-button export with data from across 15+ insurance companies.",
+        "Developed an insurance marketplace as part of an agile team using: Java (Spring Boot), PostgreSQL, MongoDB, and Kafka.",
+        "Led development of the reporting functionality, replacing a time-consuming manual process with a fully automated one-click export with data from across 15+ insurance companies.",
       ],
-      skills: ["Java", "Kafka", "Rest APIs", "Git"],
+      skills: ["Java", "PostgreSQL", "MongoDB", "Kafka", "Rest APIs", "Git"],
     },
     {
       id: "army",
@@ -86,8 +90,8 @@ export const resumeData: ResumeData = {
       endDate: "08/2021",
       location: "Greece",
       highlights: [
-        "Developed a virtual reality interactive training system in Unity, that simulates and exceeds the actual training.",
-        "Presented to stakeholders in different stages of the project.",
+        "Built an interactive VR system in Unity with C#, that simulated real-world military training scenarios.",
+        "Presented prototypes and progress to stakeholders in different stages of the development.",
       ],
       skills: ["C#", "Unity", "Typescript", "Oracle Database", "Git"],
     },
@@ -99,7 +103,8 @@ export const resumeData: ResumeData = {
       startDate: "07/2026",
       endDate: "Present",
       description: [
-        "A SaaS built from scratch that sends personalized notifications to Github users on Telegram, based on their preferences.",
+        "Independently built and deployed Beacone, a full-stack SaaS that turns important GitHub activity into actionable updates on Telegram and Slack.",
+        "Designed and operated the full stack using React (TypeScript), Kotlin (Ktor), Caddy, Netcup, GitHub Workflows, and Linux.",
       ],
       url: "https://beacone.dev/",
       skills: [
@@ -179,6 +184,7 @@ export const resumeData: ResumeData = {
             "Java (Spring Boot, Quarkus)",
             "Kotlin (Guice, Dropwizard, Koog)",
             "SQL",
+            "NoSQL",
           ],
         },
         {
@@ -186,6 +192,7 @@ export const resumeData: ResumeData = {
           skills: [
             "TypeScript",
             "React",
+            "Node.js",
             "Python",
             "Rust",
             "C# (Unity)",
@@ -204,11 +211,13 @@ export const resumeData: ResumeData = {
           skills: [
             "Github Actions",
             "Github Workflows",
+            "CI/CD",
             "REST APIs",
             "Kafka",
             "AWS",
             "Grafana",
             "Docker",
+            "Kubernetes",
             "Git",
             "Terraform",
           ],
