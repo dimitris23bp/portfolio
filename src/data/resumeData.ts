@@ -119,6 +119,24 @@ export const resumeData: ResumeData = {
       ],
     },
     {
+      id: "lexilearn",
+      name: "LexiLearn",
+      startDate: "09/2026",
+      endDate: "Present",
+      description: [
+        "An app for learning 20+ languages, built with TypeScript and Swift.",
+        "Integrated on-device and cloud-based LLMs to power interactive teaching and word games.",
+      ],
+      skills: [
+        "TypeScript",
+        "Swift",
+        "LLMs",
+        "REST APIs",
+        "OpenRouter",
+        "Cloudflare Worker",
+      ],
+    },
+    {
       id: "multiconvertor",
       name: "MultiConvertor",
       startDate: "04/2026",
