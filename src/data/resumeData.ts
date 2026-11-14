@@ -52,6 +52,7 @@ export const resumeData: ResumeData = {
       highlights: [
         "Developed backend services for an international platform, utilizing technologies such as: Java (Spring Boot, Quarkus), Kotlin, React, TypeScript, Python, Kafka, REST APIs, WebSockets, OpenAPI, PostgreSQL, and Docker.",
         "Retired successfully a monolithic project through collaborative communication with other teams in the hub.",
+        "Enhanced internal CaaS to provide individual resources and pods for each developer, and created environment for performance testing.",
         "Reduced batch import/export processing time by 80% using Spring Batch.",
       ],
       skills: [
@@ -124,11 +125,12 @@ export const resumeData: ResumeData = {
       startDate: "09/2026",
       endDate: "Present",
       description: [
-        "An app for learning 20+ languages, built with TypeScript and Swift.",
-        "Integrated on-device and cloud-based LLMs to power interactive teaching and word games.",
+        "An app for learning 20+ languages, built with TypeScript, Python, and Swift.",
+        "Integrated on-device and cloud-based LLMs (OpenAI, Anthropic, Gemini, Mistral, and OpenRouter) to power interactive teaching and exercises.",
       ],
       skills: [
         "TypeScript",
+        "Python",
         "Swift",
         "LLMs",
         "REST APIs",
