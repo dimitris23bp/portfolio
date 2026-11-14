@@ -17,7 +17,7 @@ export const resumeData: ResumeData = {
       role: "Platform Engineer",
       company: "Pleo",
       startDate: "04/2024",
-      endDate: "Present",
+      endDate: "09/2026",
       location: "Copenhagen, Denmark",
       highlights: [
         "Contributed to the platform and internal tooling for 250+ developers with technologies such as Kotlin, Typescript, PostgreSQL, Kafka, REST APIs, Terraform, AWS, Grafana, Bash, and Renovate.",
@@ -128,6 +128,7 @@ export const resumeData: ResumeData = {
         "An app for learning 20+ languages, built with TypeScript, Python, and Swift.",
         "Integrated on-device and cloud-based LLMs (OpenAI, Anthropic, Gemini, Mistral, and OpenRouter) to power interactive teaching and exercises.",
       ],
+      url: "https://apps.apple.com/us/app/lexilearn-language-app/id6780635160",
       skills: [
         "TypeScript",
         "Python",
