@@ -204,6 +204,7 @@ export const resumeData: ResumeData = {
           skills: [
             "Java (Spring Boot, Quarkus)",
             "Kotlin (Guice, Dropwizard, Koog)",
+            "Python",
             "SQL",
             "NoSQL",
           ],
@@ -214,7 +215,6 @@ export const resumeData: ResumeData = {
             "TypeScript",
             "React",
             "Node.js",
-            "Python",
             "Rust",
             "C# (Unity)",
             "Swift (SwiftUI)",
